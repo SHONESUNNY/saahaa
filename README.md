@@ -1,4 +1,4 @@
-# 🔧 Active Current Mirror Load Differential Amplifier
+# Active Current Mirror Load Differential Amplifier
 
 This project implements and simulates a differential amplifier with an active current mirror load using MOSFETs. The design leverages the benefits of high gain and compact layout, making it ideal for integrated analog front-ends.
 
@@ -8,9 +8,9 @@ The differential input causes a redistribution of the bias current I<sub>SS</sub
 
 ---
 
-## 📖 Theory
+##  Theory
 
-### ⚙️ Circuit Description
+###  Circuit Description
 
 - **M1 & M2**: Differential input pair.
     ,**M3 & M4**: Current mirror active load.
@@ -36,7 +36,7 @@ The differential input causes a redistribution of the bias current I<sub>SS</sub
 | CMRR                             | 35    | dB     |
 ---
 
-## 📷 Simulation Results
+##  Simulation Results
 - **Transient Response **  
   ![transient response](./transient1.png)
 
@@ -45,7 +45,7 @@ The differential input causes a redistribution of the bias current I<sub>SS</sub
 
 ---
 
-## 📚 Learnings
+##  Learnings
 
 - Practical use of current mirrors in analog ICs.
 - Importance of device matching and biasing.
